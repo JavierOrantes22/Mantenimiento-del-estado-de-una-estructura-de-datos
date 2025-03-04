@@ -10,9 +10,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="CREATE CATEGORY ARRAY"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="USE CATEGORY ARRAY"></asp:Label>
         </div>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Create Array" />
+        <asp:TextBox ID="txtIndex" runat="server"></asp:TextBox>
+        <p>
+            <asp:Button ID="btnLookup" runat="server" OnClick="btnLookup_Click" Text="Lookup" />
+            <asp:Label ID="lblCategory" runat="server" Text="Label"></asp:Label>
+        </p>
     </form>
 </body>
 </html>

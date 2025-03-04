@@ -14,16 +14,16 @@ namespace EstructuraDatos6370812
 
 		}
 
-        protected void Button1_Click(object sender, EventArgs e)
+      
+        protected void btnLookup_Click(object sender, EventArgs e)
         {
-          
-            String[] strCategoryArray = new String[5];
-            strCategoryArray[0] = "Postre";
-            strCategoryArray[1] = "Frutas";
-           
-            Session["strCategoryArray"] = strCategoryArray;
-
-            Response.Redirect("CategoryUseArraySessionVariables.aspx");
+            // Declare a new array.
+            String[] strCategoryArray = new String[2];
+            // Get the array from the session variable.
+            strCategoryArray = Session["strCategoryArray"] as String[];
+            // Use the array as normal.
+            Int32 i32Index = Convert.ToInt32(txtIndex.Text);
+            lblCategory.Text = strCategoryArray[i32Index];
 
         }
     }

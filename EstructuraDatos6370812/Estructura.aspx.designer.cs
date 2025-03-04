@@ -11,7 +11,7 @@ namespace EstructuraDatos6370812
 {
 
 
-    public partial class EstructuraDatos
+    public partial class Estructura
     {
 
         /// <summary>
@@ -33,30 +33,12 @@ namespace EstructuraDatos6370812
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control txtIndex.
+        /// Control btnCreateArray.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtIndex;
-
-        /// <summary>
-        /// Control btnLookup.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLookup;
-
-        /// <summary>
-        /// Control lblCategory.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCategory;
+        protected global::System.Web.UI.WebControls.Button btnCreateArray;
     }
 }
